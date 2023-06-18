@@ -32,7 +32,7 @@ const Auth = () => {
     <div className="background">
       <div className="auth-container">
         <form className="auth-form" onSubmit={(e) => onSubmit(e)}>
-          <div className="auth-title">NextJS Chat</div>
+          <div className="auth-title">ChatiFy</div>
 
           <div className="input-container">
             <input
@@ -51,7 +51,7 @@ const Auth = () => {
             />
           </div>
 
-          <button type="submit" className="submit-button">
+          <button type="submit" className="submit-button glow-on-hover">
             Login / Sign Up
           </button>
         </form>

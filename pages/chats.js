@@ -35,7 +35,7 @@ export default function Home() {
     <div className="background">
       <div className="shadow">
         <ChatEngine
-          height="calc(100vh - 212px)"
+          height="calc(100vh)"
           projectID="4bae6659-b45e-42b3-9992-548f541c168c"
           userName={username}
           userSecret={secret}

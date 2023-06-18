@@ -1,20 +1,62 @@
 .shadow {
   box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
 }
+html{
+  height: 100vh;
+  width: 100vw;
+}
+/*👉body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}👈*/
+*{
+  background-color: transparent;
+  scrollbar-width: none;
+}
+
+
+
+div{
+  background-color: transparent;
+  border: none !important;
+}
 
 /* Chat List */
 .ce-wrapper {
-  background-color: #4a5162 !important;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.62);
+
+  /* background-color: #4a5162 !important; */
+}
+
+.ce-chat-list{
+  background-color: transparent !important;
 }
 
 .ce-chats-container {
-  background-color: #4a5162 !important;
+  height: 100%;
+  background-color: transparent !important;
   border-radius: 0px !important;
 }
 
+.ce-chats-container>div>span{
+  width: 100%;
+}
+
 .ce-chat-form-container {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
   color: white;
+}
+
+.ce-feed-container-top{
+  background-color: transparent !important;
 }
 
 .ce-chat-card {
@@ -30,7 +72,8 @@
 }
 
 .ce-chat-title-text {
-  color: white !important;
+  background-color: transparent !important;
+  color: #fff !important;
 }
 
 .ce-chat-subtitle-text {
@@ -44,12 +87,17 @@
 /* Chat Feed */
 
 .ce-chat-title-container {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
   border-radius: 0px !important;
 }
 
+.ce-chat-feed{
+  background-color: transparent !important;
+}
+
 .ce-chat-feed-container {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
+  
 }
 
 .ce-primary-button {
@@ -86,10 +134,21 @@
 }
 
 .ce-social-message-form {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
+  /* display: none; */
+}
+
+.ce-social-message-form>*{
+  background-color: transparent;
+}
+
+#msg-textarea{
+  background-color: transparent !important;
 }
 
 .ce-message-input-form {
+  /* display: none; */
+  background: transparent  !important;
   padding-bottom: 10px !important;
 }
 
@@ -98,8 +157,7 @@
   position: relative !important;
   top: 4px !important;
   border-width: 0px !important;
-  background-color: #4a5162 !important;
-  color: white !important;
+  background-color: transparent !important;
 }
 #msg-textarea::placeholder {
   color: hsla(0, 0%, 100%, 0.568) !important;
@@ -110,11 +168,14 @@
 }
 
 .ce-feed-container-bottom {
+  background-color: transparent !important;
   height: "44px";
 }
 
+
+
 .ce-message-images-row {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
 }
 
 .ce-their-message-sender {
@@ -129,22 +190,29 @@
 /* Chat Settings */
 
 .ce-settings {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
   border-radius: 0px !important;
 }
 
+.ce-chat-title{
+  background-color: transparent !important;
+}
+
 .ce-chat-title-form .ce-text-input {
-  background-color: #4a5162;
+  background-color: #726dfe !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 36px 13px rgba(0,0,0,0.1);
   color: white;
 }
 
 .ce-section-title-container {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
   color: white;
 }
 
 #ce-options-drop-down {
-  background-color: #4a5162 !important;
+  background-color: transparent !important;
   color: white;
 }
 
@@ -161,4 +229,24 @@
 .ce-autocomplete-close {
   background-color: white !important;
   border-radius: 0px !important;
+}
+
+.ce-chat-settings-mobile-option>div{
+  background-color: transparent;
+}
+
+#ce-social-msg-form-container{
+  background-color: transparent !important;
+}
+
+.ce-chat-settings-mobile-option>div>div{
+  background-color: #1919198a !important;
+}
+
+.ce-chat-list-mobile-option>div>div{
+  background-color: #1919198a !important;
+}
+
+input{
+  color: white !important;
 }
