@@ -97,7 +97,6 @@ div{
 
 .ce-chat-feed-container {
   background-color: transparent !important;
-  
 }
 
 .ce-primary-button {
@@ -110,6 +109,8 @@ div{
 
 .ce-my-message-bubble {
   background-color: #726dfe !important;
+  margin-right: 0.5rem;
+  /* transform: translateX(-10%); */
 }
 
 .ce-my-message-sinding-bubble {
@@ -122,6 +123,7 @@ div{
 
 .ce-their-message-timestamp {
   color: hsla(0, 0%, 100%, 0.568) !important;
+  /* margin-left: 2rem; */
 }
 
 #ce-send-message-button {
@@ -185,6 +187,11 @@ div{
 .ce-their-message-bubble {
   background-color: #535a6d !important;
   color: rgba(255, 255, 255, 0.705) !important;
+  margin-left: 0.5rem;
+}
+
+.ce-avatar{
+  margin-left: 0.5rem;
 }
 
 /* Chat Settings */
