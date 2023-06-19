@@ -5,8 +5,8 @@
   left: 0px;
   width: calc(100vw - 200px);
   height: calc(100vh - 200px);
-  /* background-image: url(https://images.pexels.com/photos/12096173/pexels-photo-12096173.jpeg); */
-  background-image: url(https://images.unsplash.com/photo-1544548188-597e0d9e50bf?w=1920&ixid=MnwxODQyNDF8MHwxfGNvbGxlY3Rpb258MTExM3wxNDU5OTYxfHx8fHwyfHwxNjU4Mjk3Njg1&q=70&fm=jpg&crop=entropy&ixlib=b-1.2.1&cs=srgb);
+  background-image: url(https://images.pexels.com/photos/12096173/pexels-photo-12096173.jpeg);
+  /* background-image: url(https://images.unsplash.com/photo-1544548188-597e0d9e50bf?w=1920&ixid=MnwxODQyNDF8MHwxfGNvbGxlY3Rpb258MTExM3wxNDU5OTYxfHx8fHwyfHwxNjU4Mjk3Njg1&q=70&fm=jpg&crop=entropy&ixlib=b-1.2.1&cs=srgb); */
   /* background-image: url(https://wallpaperaccess.com/full/84334.jpg); */
   background-repeat: no-repeat;
   background-position: center;
